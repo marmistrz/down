@@ -1,0 +1,14 @@
+Source: down
+Section: games
+Priority: optional
+Maintainer: Marcin Mielniczuk <marmistrz@inboxalias.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.4
+Homepage: http://route477.net/w/Down.html
+Vcs-Git: git://github.com/marmistrz/down.git
+
+Package: down
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
