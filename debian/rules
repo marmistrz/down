@@ -8,7 +8,7 @@
 	dh $@ 
 
 override_dh_install:
-    dh_install
-    for i in 16 20 22 24 32 36 40 48 64 72 96 128 192 256
-    do convert image/icon.png debian/down/usr/share/icons/hicolor/${i}x${i}/apps/down.png
-    done
+	dh_install
+	for i in 16 20 22 24 32 36 40 48 64 72 96 128 192 256
+	do convert image/icon.png debian/down/usr/share/icons/hicolor/${i}x${i}/apps/down.png
+	done
