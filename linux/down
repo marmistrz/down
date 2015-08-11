@@ -1,2 +1,2 @@
 #!/bin/sh
-ruby /usr/share/games/down.rb
+ruby /usr/share/games/down/down.rb

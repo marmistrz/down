@@ -9,6 +9,6 @@ Vcs-Git: git://github.com/marmistrz/down.git
 
 Package: down
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby-sdl
 Description: A 2D Icy Tower-like game where you go down the tower
  You jump down the tower and need to reach as deep as possible. But be careful to avoid the spikes! During your journey you'll be able to find a couple of power-ups too.
