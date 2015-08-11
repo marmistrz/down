@@ -2,7 +2,7 @@ Source: down
 Section: games
 Priority: optional
 Maintainer: Marcin Mielniczuk <marmistrz@inboxalias.com>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 7), imagemagick
 Standards-Version: 3.9.4
 Homepage: http://route477.net/w/Down.html
 Vcs-Git: git://github.com/marmistrz/down.git
@@ -10,5 +10,5 @@ Vcs-Git: git://github.com/marmistrz/down.git
 Package: down
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: A 2D Icy Tower-like game where you go down the tower
+ You jump down the tower and need to reach as deep as possible. But be careful to avoid the spikes! During your journey you'll be able to find a couple of power-ups too.
