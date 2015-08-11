@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Down!
+Exec=down
+Icon=down
+Terminal=false
